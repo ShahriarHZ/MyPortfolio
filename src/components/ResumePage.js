@@ -7,7 +7,7 @@ function ResumePage() {
             <div className="resume-shell mx-auto max-w-screen-xl">
                 <div className="resume-heading">
                     <p className="resume-kicker">Resume</p>
-                    <h1 className="resume-title">James Sciacca's Resume</h1>
+                    <h1 className="resume-title">Shahriar Zisan's Resume</h1>
                     <p className="resume-intro">
                         View my latest resume directly on the site or download a copy.
                     </p>

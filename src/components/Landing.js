@@ -9,7 +9,7 @@ import linkedinlogo from "../img/linkedin.png";
 
 //creating landing function
 function Landing({ isMobile = false }) {
-    const introText = isMobile ? "Computer Science graduate with a practical focus on troubleshooting, networking, and hands-on technical work." : "Welcome to my website! I am a Computer Science graduate with a passion for problem-solving, networking, and figuring out how things work. If you have any questions or would like to get in touch, feel free to reach out!";
+    const introText = isMobile ? "Welcome to my corner of the web! I am a Full-Stack Developer dedicated to building clean, responsive, and user-centric applications. My background in Computer Science fuels my passion for solving complex architectural puzzles and optimizing how data flows behind the scenes. Whether it’s crafting a seamless frontend experience or scaling a robust backend, I love figuring out the 'why' and 'how' of every project. I am always open to new challenges—lets connect and build something impactful" : "This is the desktop version text";
 
     return(
         <>
@@ -17,8 +17,7 @@ function Landing({ isMobile = false }) {
             <div className="landing-shell max-w-screen-xl p-8 md:p-10 mx-auto">
                 <div className="landing-copy">
                     <h5 id='intro' className="font-mono text-lg">Hello, my name is</h5>
-                    <h1 id='name' className="font-mono">James Sciacca</h1>
-                    <h1 id='fullStack' className="font-mono">Rutgers Alumni</h1>
+                    <h1 id='name' className="font-mono">Md Shahriar Hossain Zisan</h1>
                     <p id='bio' className="font-mono mb-2">{introText}</p>
                 </div>
                 <div className={`landing-visual ${isMobile ? "landing-visual-hidden" : ""}`}>
@@ -27,8 +26,8 @@ function Landing({ isMobile = false }) {
                 <ul id='socials' className="flex items-center mt-5">
                     <li className="landing-cta-item"><a href="#contactForm" id='contactBtn' className="landing-cta-btn text-white font-semibold bg-primary hover:bg-primarytrans hover:text-indigo-600 rounded py-2 px-2 border-2 focus:outline-none focus:border-teal-500 transition duration-150 ease-in-out">Contact Me</a></li>
                     <li className="landing-cta-item"><Link to="/resume" id='contactBtn' className="landing-cta-btn text-white font-semibold bg-primary hover:bg-primarytrans hover:text-indigo-600 rounded py-2 px-2 border-2 focus:outline-none focus:border-teal-500 transition duration-150 ease-in-out">View Resume</Link></li>
-                    <li id='socialLinks'><a href="https://github.com/jamessciacca" target="_blank" rel="noreferrer"><img src={githublogo} alt="GitHub" /></a></li>
-                    <li id='socialLinks'><a href="https://www.linkedin.com/in/james-sciacca3/" target="_blank" rel="noreferrer"><img src={linkedinlogo} alt="LinkedIn" /></a></li>
+                    <li id='socialLinks'><a href="https://github.com/ShahriarHZ" target="_blank" rel="noreferrer"><img src={githublogo} alt="GitHub" /></a></li>
+                    <li id='socialLinks'><a href="https://www.linkedin.com/in/shahriarhossain-zisan/" target="_blank" rel="noreferrer"><img src={linkedinlogo} alt="LinkedIn" /></a></li>
                 </ul>
             </div>
         </section>

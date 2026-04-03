@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "daisyui";
 
 :root {
   --font-body: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;

@@ -6,27 +6,27 @@ const aboutSections = [
     {
         title: "Current Season",
         content:
-            "As a recent college graduate I am in the Limbo phase, exploring what I want to pursue professionally and learning as much as I can to prepare for my career. I am working towards certificates in IT and cloud infrastructure, while also applying to a variety of roles in tech to find the right fit and get my foot in the door. My long-term goal is to build a career where I can combine technical skill, communication, and problem-solving. I am especially drawn to IT, infrastructure, and product-minded roles where I can contribute, keep learning, and grow into bigger responsibility over time. ",
+            "As a Computer Science and Engineering student, I am currently in an exciting phase of growth. I am deeply immersed in the world of full-stack development, refining my skills in React, Node.js, and modern databases. My days are spent balancing academic lab work with building real-world projects like job trackers and management systems. My goal is to bridge the gap between complex logic and clean UI, eventually moving into high-impact software engineering roles where I can solve problems at scale.",
     },
     {
         title: "Outside The Screen",
         content:
-            "When I am not working or doing something tech-related, you can find me in the gym, watching the Yankees, or cooking/eating food. I have been lifting weights for 5 years now and it has become one of my biggest passions. The Yankees have always been my favorite team and growing up being a relief pitcher, I loved watching Mariano Rivera close out games. Food is a big part of my life and family cuture, its more than something to keep you full, its a way of showing love and bringing people together. Anytime theres a big accomplishement or celebration in my family, you can be sure there will be a big meal involved.",
+            "When I am not coding or debugging, you can usually find me on the football pitch. Whether I am playing a match or discussing tactics, football is my primary way to stay active and energized. Beyond sports, food plays a central role in my life and culture—it’s more than just a meal; it is a way to celebrate milestones and bring friends and family together. I also enjoy the strategic side of gaming, particularly challenges that require the same quick thinking I use in competitive programming.",
     },
     {
         title: "My Faith Journey",
         content:
-            "Faith to me is paramount in everything I do. I do not worry, I do not fear, and I am not anxious because I know Jesus has a plan for me. Following Jesus has been one of the most challenging things I have done, but the feeling of peace and real joy that comes from it is unmatched. I have always been Christian but I never knew what it meant to surrender to him until now. I work hard to keep my relationship with God at the center of my life and I am sure he will continue to guide me in the right direction as I navigate the next season of life.",
+            "Faith is the foundation of my life and the compass that guides my decisions. As a Muslim, I find immense peace in knowing that my efforts are matched by a greater plan. This belief keeps me grounded during the stressful seasons of exams and project deadlines, allowing me to approach challenges with patience and gratitude. I strive to keep my values at the center of my professional and personal life, trusting that as long as I work hard and stay sincere, I will be guided toward the right opportunities.",
     },
 ];
 
 const quickFacts = [
-    "Christian and Sicilian heritage",
-    "Weightlifting and fitness enthusiast",
-    "I love eating and trying new foods",
-    "Reached top 5% in Warzone Ranked play",
+    "Proud Muslim and tech enthusiast",
+    "Football lover—always up for a match or a tactical debate",
+    "Competitive programmer at heart (C++ & Problem Solving)",
+    "Passionate about building the modern web with React & Node.js",
+    "Foodie who loves exploring new flavors and local cuisines",
 ];
-
 function MoreAbout() {
     return (
         <section id="moreAboutPage" className="px-6 py-10 md:px-10">

@@ -9,185 +9,195 @@ import memoji from "../img/memoji.png";
 import linuxduck from "../img/linuxduck.jpeg";
 import systemTroubleshootingImg from "../img/system-troubleshooting.jpg";
 
-const resumeProjects = [
+// --- PRIMARY DEVELOPMENT PROJECTS ---
+const primaryProjects = [
     {
-        source: "Resume",
-        title: "jamessciacca.com",
-        date: "May 2023 - Present",
-        stack: "React, JavaScript, HTML/CSS",
-        image: memoji,
+        source: "Portfolio",
+        title: "Digitool-app",
+        date: "2026",
+        stack: "React, Vite, Tailwind CSS, DaisyUI",
+        image: devdirect,
         points: [
-            "Built a personal website to showcase projects, certifications, and experience.",
-            "Created a clean and responsive design using React and basic front-end tools.",
-            "Used GitHub to manage updates and keep the project organized.",
+            "Built a high-performance landing page focusing on a clean, minimalist UI and premium aesthetic.",
+            "Implemented responsive pricing structures and modular component architecture.",
+            "Optimized for fast loading and seamless navigation across all device sizes.",
+        ],
+        links: [
+            { label: "GitHub", href: "https://github.com/ShahriarHZ/digitools-app" },
+            { label: "Live", href: "https://digitools-by-shahriar.netlify.app" },
+        ],
+    },
+    {
+        source: "Portfolio",
+        title: "Job Tracker",
+        date: "2026",
+        stack: "React.js, Node.js, TailwindCSS, DaisyUI",
+        image: JAT,
+        points: [
+            "Developed during HackRU to streamline job application tracking and interview stages.",
+            "Integrated goal-setting and streak tracking features to improve user consistency.",
+            "Collaborated in a team environment to ship a functional MERN application under tight deadlines.",
+        ],
+        links: [
+            { label: "GitHub", href: "https://github.com/ShahriarHZ/Job-Tracker" },
+            { label: "Live", href: "https://shahriarhz.github.io/Job-Tracker/" },
+        ],
+    },
+    {
+        source: "Portfolio",
+        title: "Student Management System",
+        date: "2023",
+        stack: "C++, File Handling, OOP",
+        image: sqlproject,
+        points: [
+            "Developed a CLI application to manage student records, departments, and roles.",
+            "Utilized C++ file handling for persistent data storage and retrieval.",
+            "Designed a relational workflow for viewing and updating academic records.",
+        ],
+        links: [{ label: "GitHub", href: "https://github.com/ShahriarHZ/Project" }],
+    },
+    {
+        source: "Portfolio",
+        title: "English Janala",
+        date: "2023",
+        stack: "HTML, CSS, JavaScript",
+        image: petroasting,
+        points: [
+            "Created an interactive educational platform for English language learning.",
+            "Led the responsive design implementation and UI/UX styling.",
+            "Implemented core JavaScript functionality for dynamic content rendering.",
+        ],
+        links: [
+            { label: "GitHub", href: "https://github.com/ShahriarHZ/English_Janala" },
+            { label: "Live", href: "https://shahriarhz.github.io/English_Janala/" },
+        ],
+    },
+];
+
+// --- SECONDARY PROJECTS & TECHNICAL LABS ---
+const secondaryProjects = [
+    {
+        source: "Portfolio",
+        title: "Calculator",
+        date: "2024",
+        stack: "HTML, CSS, JavaScript, jQuery, Tailwind",
+        image: fitnessfusion,
+        points: [
+            "Developed a functional calculator app with a focus on logic and clean UI.",
+            "Integrated core JavaScript features and jQuery for dynamic user interactions.",
+            "Utilized Tailwind CSS to ensure a responsive and modern design.",
+        ],
+        links: [
+            { label: "GitHub", href: "https://github.com/ShahriarHZ/Calculator" },
+            { label: "Live", href: "https://shahriarhz.github.io/Calculator/" },
+        ],
+    },
+    {
+        source: "Portfolio",
+        title: "Rock-Paper-Scissors",
+        date: "2025",
+        stack: "HTML, CSS, JavaScript",
+        image: codequiz,
+        points: [
+            "Created an interactive browser-based game featuring score tracking via local storage.",
+            "Focused on DOM manipulation and state management for game logic.",
+            "Designed a user-friendly interface with CSS transitions and responsive layouts.",
+        ],
+        links: [
+            { label: "GitHub", href: "https://github.com/ShahriarHZ/Rock-Paper-Scissors-Game-" },
+            { label: "Live", href: "https://shahriarhz.github.io/Rock-Paper-Scissors-Game-/" },
         ],
     },
     {
         source: "Resume",
-        title: "System Troubleshooting and Configuration Lab",
+        title: "System Troubleshooting & Config Lab",
         date: "January 2026",
         stack: "Windows, Networking",
         image: systemTroubleshootingImg,
         points: [
-            "Practiced diagnosing and resolving common system and network issues.",
-            "Configured system settings, drivers, and basic network connections.",
-            "Applied structured troubleshooting steps to identify and fix technical problems.",
+            "Practiced diagnosing and resolving system and network-level bottlenecks.",
+            "Configured system settings and driver compatibility for optimized performance.",
         ],
     },
     {
         source: "Resume",
         title: "Home Lab Environment",
         date: "February 2026",
-        stack: "Linux, Virtual Machines, Networking",
+        stack: "Linux, VMs, Networking",
         image: linuxduck,
         points: [
-            "Set up virtual machines to practice working with Linux systems and networking.",
-            "Configured IP settings and tested connectivity between systems.",
-            "Used basic networking tools to troubleshoot connection and system issues.",
-        ],
-    },
-];
-
-const legacyProjects = [
-    {
-        source: "Portfolio",
-        title: "JAT (HACKRU)",
-        date: "HackRU 2023",
-        stack: "MongoDB, Express.js, React.js, Node.js, TailwindCSS, Auth0",
-        image: JAT,
-        points: [
-            "Built in 24 hours during HackRU to track job applications and interview stages.",
-            "Added goals and streak tracking to encourage consistent applications.",
-            "Collaborated as a team to ship a full working MERN application under hackathon time pressure.",
-        ],
-        links: [{ label: "GitHub", href: "https://github.com/justbautista/jat" }],
-    },
-    {
-        source: "Portfolio",
-        title: "Dev Direct",
-        date: "2023",
-        stack: "HTML, CSS, React, Node.js, Express.js, MongoDB",
-        image: devdirect,
-        points: [
-            "Full stack MERN app for developers to connect and network globally.",
-            "Implemented backend server setup, authentication, and API routes.",
-            "Contributed to CSS styling and responsive behavior.",
-        ],
-        links: [
-            { label: "GitHub", href: "https://github.com/Animeet/DevDirect" },
-            { label: "Live", href: "https://dev-direct.herokuapp.com/" },
-        ],
-    },
-    {
-        source: "Portfolio",
-        title: "Pet Roasting App",
-        date: "2023",
-        stack: "Handlebars, CSS, Node.js, Express.js, SQL",
-        image: petroasting,
-        points: [
-            "Created a fun social app for uploading pet photos with roast captions.",
-            "Led page styling and responsive design implementation.",
-            "Assisted backend development and integration when needed.",
-        ],
-        links: [
-            { label: "GitHub", href: "https://github.com/MegMathis/Pet_Roasting_App" },
-            { label: "Live", href: "https://pet-roasting-app.herokuapp.com/" },
-        ],
-    },
-    {
-        source: "Portfolio",
-        title: "Fitness Fusion",
-        date: "2023",
-        stack: "HTML, CSS, JavaScript, jQuery, Tailwind",
-        image: fitnessfusion,
-        points: [
-            "Workout finder app powered by user input and external APIs.",
-            "Integrated APIs for workout data and motivational quotes.",
-            "Implemented core JavaScript features to make the app functional.",
-        ],
-        links: [
-            { label: "GitHub", href: "https://github.com/jamessciacca/fitness-fusion-workout-maker" },
-            { label: "Live Site", href: "https://jamessciacca.github.io/fitness-fusion-workout-maker/" },
-        ],
-    },
-    {
-        source: "Portfolio",
-        title: "SQL Employee Tracker",
-        date: "2023",
-        stack: "Node.js, Inquirer, SQL",
-        image: sqlproject,
-        points: [
-            "CLI application to manage departments, roles, and employees.",
-            "Built relational workflow for viewing, adding, and updating records.",
-            "Designed around practical SQL query usage.",
-        ],
-        links: [{ label: "GitHub", href: "https://github.com/jamessciacca/my-portfolio" }],
-    },
-    {
-        source: "Portfolio",
-        title: "Coding Quiz",
-        date: "2023",
-        stack: "HTML, CSS, JavaScript, jQuery",
-        image: codequiz,
-        points: [
-            "Browser-based coding quiz with local storage score tracking.",
-            "One of the first JavaScript-heavy projects in your portfolio.",
-            "Focused on DOM manipulation and interactive quiz flow.",
-        ],
-        links: [
-            { label: "GitHub", href: "https://github.com/jamessciacca/online-coding-quiz" },
-            { label: "Live Site", href: "https://jamessciacca.github.io/online-coding-quiz/" },
+            "Set up virtual environments to practice Linux system administration and connectivity.",
+            "Used networking tools to troubleshoot cross-platform system communication.",
         ],
     },
 ];
 
 function Projects() {
-    const allProjects = [...resumeProjects, ...legacyProjects];
+    const allProjects = [...primaryProjects, ...secondaryProjects];
 
     return (
-        <>
-            <section id="projectSection" className="container mx-auto px-6 pb-10 md:px-10">
-                <div className="section-heading section-heading-compact">
-                    <p className="section-kicker">Selected Work</p>
-                    <h1 id="projecth1" className="section-title">Projects</h1>
-                    <p className="section-intro">
-                        A combination of portfolio builds, coursework, and hands-on technical labs.
-                    </p>
-                </div>
-                <div className="project-grid">
-                    {allProjects.map((project, index) => (
-                        <article key={project.title} className="project-tile" style={{ "--stagger": index % 6 }}>
-                            <div className="project-preview-box">
-                                {project.image ? (
-                                    <img className="project-preview" src={project.image} alt={`${project.title} preview`} />
-                                ) : (
-                                    <span className="project-preview-placeholder">No image</span>
-                                )}
-                            </div>
-                            <div className="project-header">
-                                <h2 className="project-title">{project.title}</h2>
-                                <p className="project-date">{project.date}</p>
-                            </div>
-                            <p className="project-stack">{project.stack}</p>
-                            <ul className="project-points">
-                                {project.points.map((point) => (
-                                    <li key={point}>{point}</li>
-                                ))}
-                            </ul>
-                            {project.links ? (
-                                <div className="project-links">
-                                    {project.links.map((link) => (
-                                        <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
-                                            {link.label}
-                                        </a>
-                                    ))}
+        <section id="projectSection" className="container mx-auto px-6 pb-10 md:px-10">
+            <div className="section-heading section-heading-compact">
+                <p className="section-kicker">Selected Work</p>
+                <h1 id="projecth1" className="section-title text-4xl font-bold mb-4">Projects</h1>
+                <p className="section-intro text-lg opacity-80 mb-8">
+                    A showcase of full-stack applications, software engineering projects, and technical labs.
+                </p>
+            </div>
+            
+            <div className="project-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {allProjects.map((project, index) => (
+                    <article 
+                        key={project.title} 
+                        className="project-tile border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
+                        style={{ "--stagger": index % 6 }}
+                    >
+                        <div className="project-preview-box mb-4 overflow-hidden rounded">
+                            {project.image ? (
+                                <img 
+                                    className="project-preview w-full h-48 object-cover" 
+                                    src={project.image} 
+                                    alt={`${project.title} preview`} 
+                                />
+                            ) : (
+                                <div className="project-preview-placeholder w-full h-48 bg-gray-200 flex items-center justify-center">
+                                    No image
                                 </div>
-                            ) : null}
-                        </article>
-                    ))}
-                </div>
-            </section>
-        </>
+                            )}
+                        </div>
+                        
+                        <div className="project-header flex justify-between items-start mb-2">
+                            <h2 className="project-title text-xl font-semibold">{project.title}</h2>
+                            <p className="project-date text-sm text-gray-500">{project.date}</p>
+                        </div>
+                        
+                        <p className="project-stack text-sm font-mono text-blue-600 mb-3">{project.stack}</p>
+                        
+                        <ul className="project-points list-disc list-inside text-sm space-y-1 mb-4 opacity-90">
+                            {project.points.map((point, idx) => (
+                                <li key={idx}>{point}</li>
+                            ))}
+                        </ul>
+                        
+                        {project.links ? (
+                            <div className="project-links flex gap-4 mt-auto">
+                                {project.links.map((link) => (
+                                    <a 
+                                        key={link.href} 
+                                        href={link.href} 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                        className="text-blue-500 hover:underline font-medium"
+                                    >
+                                        {link.label}
+                                    </a>
+                                ))}
+                            </div>
+                        ) : null}
+                    </article>
+                ))}
+            </div>
+        </section>
     );
 }
 

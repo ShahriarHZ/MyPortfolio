@@ -2,31 +2,38 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const certificates = [
     {
-        title: 'CompTIA A+ Certified',
-        issuer: 'CompTIA',
-        category: 'Core IT',
+        title: 'Meta Front-End Developer Professional Certificate',
+        issuer: 'Meta (via Coursera)',
+        category: 'Web Development',
+        year: '2025',
+        logo: 'https://i.ibb.co.com/0RYJh3KC/meta.png', // Update your image paths accordingly
+        logoAlt: 'Meta logo',
+    },
+    {
+        title: 'CPP: Certified Professional C++ Programmer',
+        issuer: 'C++ Institute',
+        category: 'C++ Programming',
         year: '2026',
-        logo: '/cert-logos/comptia-a-plus.webp',
-        logoAlt: 'CompTIA A+ certification logo',
+        logo: 'https://i.ibb.co.com/Ngrb0qt3/c.png',
+        logoAlt: 'C++ Institute logo',
     },
     {
-        title: 'CompTIA Network+',
-        issuer: 'CompTIA',
-        category: 'Security',
-        year: 'Expected Apr 2026',
-        logo: '/cert-logos/comptia-network-plus.png',
-        logoAlt: 'CompTIA Network+ certification logo',
+        title: 'Advanced React Patterns & Performance',
+        issuer: 'Frontend Masters',
+        category: 'Web Development',
+        year: '2025',
+        logo: 'https://i.ibb.co.com/60mCMhBb/front.png',
+        logoAlt: 'Frontend Masters logo',
     },
     {
-        title: 'Intro to Computer Operating Systems and Security',
-        issuer: 'Microsoft',
-        category: 'Operating Systems',
-        year: '2024',
+        title: 'C++ Object-Oriented Design & Algorithms',
+        issuer: 'Microsoft / edX',
+        category: 'C++ Programming',
+        year: 'Expected June 2026',
         logo: '/cert-logos/microsoft-logo.jpg',
         logoAlt: 'Microsoft logo',
     },
 ];
-
 function Certificates() {
     const sectionRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
