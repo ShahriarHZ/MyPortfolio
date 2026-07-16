@@ -1,5 +1,5 @@
 import React from "react";
-import resumePdf from "../pdf/JamesSciacca_Resume.pdf";
+import resume from '../pdf/Shahriar_Hossain_Zisan Fullstack Developer Resume (3).pdf';
 
 function ResumePage() {
     return (
@@ -16,14 +16,14 @@ function ResumePage() {
                 <div className="resume-actions">
                     <a
                         className="resume-download"
-                        href={resumePdf}
-                        download="JamesSciacca_Resume.pdf"
+                        href={resume}
+                        download="Shahriar_Hossain_Zisan Fullstack Developer Resume (3).pdf"
                     >
                         Download PDF
                     </a>
                     <a
                         className="resume-open"
-                        href={resumePdf}
+                        href={resume}
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -34,12 +34,12 @@ function ResumePage() {
                 <div className="resume-viewer-wrap">
                     <object
                         className="resume-viewer"
-                        data={resumePdf}
+                        data={resume}
                         type="application/pdf"
                     >
                         <p className="resume-fallback">
                             PDF preview is unavailable on this browser.{" "}
-                            <a href={resumePdf} target="_blank" rel="noreferrer">
+                            <a href={resume} target="_blank" rel="noreferrer">
                                 Open resume here
                             </a>
                             .
